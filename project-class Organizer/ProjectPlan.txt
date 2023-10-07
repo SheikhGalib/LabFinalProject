@@ -1,0 +1,42 @@
+What it will do
+>> User account
+    - Teacher type
+    - student type
+    Properties:
+    Common: Id, flag,  name, dipalay(), info(); // flag == T, (teacher)
+    Unique: .//..
+    Functionality: User Login, //Password, 
+        -- Activity depending on user,
+        -- If teacher --> Give Message specific(), give to all();
+                            Schedule set(), routine update();
+        -- If student --> routine check(), schedule check(), getinfo() -> teacher info, dept info. 
+>> Routine 
+    - Store routine
+    - Change automatically according to schedule
+    - Have set option (specific user)
+    - have update option (specific user)
+    - can compile only empty slots
+    *be friend with schedule
+>> Scheduler 
+    - Have set option (specific User)
+    - When schedule Set, notify all students
+    - schedule check option,
+    - power to update routine according to new schedule
+    *be friend with routine
+>> CT managment 
+    - Remaining Class Test
+    - Find suitable slots in routine.
+        >> two sections combined.
+    - Set CT date
+    - Set topic
+    - set Time
+    *be friend with routine
+>> Attendence 
+    - user: student
+    - Have number of class count
+    - Have minimum class required (60%)
+    - claculate minimum class to do for achieveing  requirment
+>> Info Desk
+    - user all
+    - Get Office number
+    - Get Teacher number
